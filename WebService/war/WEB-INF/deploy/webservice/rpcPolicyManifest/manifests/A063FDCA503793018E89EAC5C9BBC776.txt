@@ -1,2 +1,0 @@
-serviceClass: at.ac.uibk.drs.client.GreetingService
-path: 4DA7D8DDA870E22DA43762FC1BA5F2FE.gwt.rpc
