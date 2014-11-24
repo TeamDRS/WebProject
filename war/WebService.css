@@ -1,0 +1,585 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+  margin-right: 20px;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+.body{ 
+	background-image:url(images/bg.jpg); 
+	background-size: cover;
+	/**
+	background-image:url(images/body-bg.jpg); 
+	background-size: cover;
+	*/
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.horizontalmainpanel {
+	text-align: center;
+	 margin-left: 40px;
+	 margin-bottom: 65px;
+	 margin-top: 20px;
+	 font-size: 16pt;
+	 color: #D3D3D3;
+	 font-weight: bold;
+	 cursor:pointer;
+}
+
+.horizontalmainpanelImage {
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.menuPanel input {
+    float: left;
+    margin-right: 40px;
+    margin-bottom:20px;
+}
+
+.menuPanel2 input {
+    float: left;
+    margin-right: 20px;
+    margin-left:20px; 
+    margin-bottom:40px;
+}
+
+.format { /* Standard Text */
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	/*font-size: 13pt;
+	color: #b4b4b4;*/
+}
+
+.format2 { /* used for Checkbox format */
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	margin-top: 220px;
+	/*font-size: 13pt;
+	color: #b4b4b4;*/
+}
+
+
+.text { /* Standard Text */
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 13pt;
+	color: #b4b4b4;
+}
+
+.passwortbox {	/* Benutzername Box */
+	margin-right: 5px;		/* war 50 */
+	margin-bottom: 25px;
+	margin-left: 5px;
+	margin-top: 25px;
+}
+
+.passwortbox5 {	/* Benutzername Text	*/
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-left: 20px;
+	font-size: 13pt;
+	color: #b4b4b4;
+}
+
+.passwortbox4 {	/* Password Box */
+	margin-left: 5px;
+	margin-right: 5px;		/* war 40 */	
+	margin-bottom: 25px;
+}
+
+
+.passwortbox3 { /* Password Text */
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	font-size: 13pt;
+	color: #b4b4b4;
+}
+
+.adminbox {
+	margin-right: 82px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.adminbox2 {
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayoutBig {
+	margin-right: 90px;
+	margin-left: 250px;
+	margin-bottom: 25px;
+	font-size: 16pt;
+	color: #696969;
+}
+
+.textlayoutBig2 {
+	margin-right: 250px;
+	
+	margin-bottom: 25px;
+	font-size: 16pt;
+	color: #696969;
+}
+
+.textlayoutBig3 {
+	margin-left: 45px;
+	margin-bottom: 25px;
+	font-size: 16pt;
+	color: #696969;
+}
+
+.textlayoutBig4 {
+	margin-right: 45px;
+	margin-left: 250px;
+	margin-bottom: 25px;
+	font-size: 16pt;
+	color: #696969;
+}
+
+
+.textlayoutBox {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 25px;
+	font-size: 10pt;
+	color: #696969;
+}
+
+.textlayoutBoxSpecial {
+	margin-right: 100px;
+	margin-bottom: 25px;
+	font-size: 10pt;
+	color: #696969;
+}
+
+.textlayoutBoxSpecial2 {
+	margin-right: 100px;
+	margin-left: 45px;
+	margin-bottom: 25px;
+	font-size: 10pt;
+	color: #696969;
+}
+
+.textlayoutBoxSpecial3 {
+	margin-right: 100px;
+	margin-left: 51px;
+	margin-bottom: 25px;
+	font-size: 10pt;
+	color: #696969;
+}
+
+.textlayout {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+
+.textlayout2 {
+	margin-right: 130px;
+	margin-left: 130px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout3 {
+	margin-bottom: 70px;
+	margin-top: 30px;
+	margin-right:180px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout4 {
+	margin-right: 35px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout5 {
+	margin-right: 106px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout6 {
+	margin-right: 76px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout7 {	/** BIG */
+	margin-right: 100px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 16pt;
+	color: #696969;
+}
+
+
+.textlayout8 {
+	margin-right: 105px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout9 {
+	margin-right: 156px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout10 {
+	margin-right: 49px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout11 {
+	margin-right: 98px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout12 {
+	margin-right: 109px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout13 {
+	margin-right: 49px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout14 {
+	margin-right: 49px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout15 {
+	margin-right: 60px;
+	margin-left: 150px;
+	margin-bottom: 25px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout16 {
+	margin-left: 50px;
+	margin-right:30px;
+	margin-top:10px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+.textlayout17 {
+	margin-bottom: 70px;
+	margin-top: 30px;
+	margin-right:60px;
+	font-size: 13pt;
+	color: #696969;
+}
+
+
+
+
+.teamdrs {
+	text-align: center;
+	margin-top: 10px;	
+	margin-bottom: 20px;
+	font-size: 22pt;
+	color: #3366CC;
+	font-weight: bold;
+}
+
+.teamdrs2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 22pt;
+	color: #3366CC;	
+	font-weight: bold;
+}
+
+.teamdrs3 {
+	text-align: center;
+	margin-left: 98px;
+	margin-top: 10px;
+	margin-bottom: 70px;
+	font-size: 22pt;
+	color: #3366CC;
+	font-weight: bold;
+}
+
+
+.smallbutton {
+text-align: center;
+	background-color:transparent;
+	background: transparent;
+	border:1px solid #a7cde8;
+	display:inline-block;
+	cursor:pointer;
+	color:#b4b4b4;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 17px;
+	text-decoration:none;
+	
+	margin-bottom:15px;
+	
+}
+
+.loginbutton {
+text-align: center;
+	background-color:transparent;
+	background: transparent;
+	border:2px solid #a7cde8;
+	display:inline-block;
+	cursor:pointer;
+	color:#b4b4b4;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 17px;
+	text-decoration:none;
+	
+	margin-bottom:25px;
+	
+}
+.loginbutton:hover {
+	background-color:transparent;
+}
+.loginbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.buttonLayout2 {
+	background-color:transparent;
+	background: transparent;
+	border:2px solid #a7cde8;
+	display:inline-block;
+	cursor:pointer;
+	color:#696969;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 17px;
+	text-decoration:none;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	
+}
+.buttonLayout2:hover {
+	background-color:transparent;
+}
+.buttonLayout2:active {
+	position:relative;
+	top:1px;
+}
+
+.buttonLayout3 {
+	background-color:transparent;
+	background: transparent;
+	border:2px solid #a7cde8;
+	display:inline-block;
+	cursor:pointer;
+	color:#696969;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 17px;
+	text-decoration:none;
+	margin-bottom: 25px;
+	margin-right: 50px;
+	margin-left: 150px;
+	
+}
+.buttonLayout3:hover {
+	background-color:transparent;
+}
+.buttonLayout3:active {
+	position:relative;
+	top:1p
+}
+
+.buttonLayout4 {
+	background-color:transparent;
+	background: transparent;
+	border:2px solid #a7cde8;
+	display:inline-block;
+	cursor:pointer;
+	color:#696969;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 17px;
+	text-decoration:none;
+	margin-right: 50px;
+	margin-top: 50px;
+	
+}
+.buttonLayout4:hover {
+	background-color:transparent;
+}
+.buttonLayout4:active {
+	position:relative;
+	top:1p
+}
+
+.buttonLayout5 {
+	background-color:transparent;
+	background: transparent;
+	border:2px solid #a7cde8;
+	display:inline-block;
+	cursor:pointer;
+	color:#696969;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 17px;
+	text-decoration:none;
+	margin-left: 40px;
+	margin-bottom: 25px;
+}
+.buttonLayout5:hover {
+	background-color:transparent;
+}
+.buttonLayout5:active {
+	position:relative;
+	top:1p
+}
+
+.buttonLayout6 {
+	background-color:transparent;
+	background: transparent;
+	border:2px solid #a7cde8;
+	display:inline-block;
+	cursor:pointer;
+	color:#696969;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 17px;
+	text-decoration:none;
+	margin-right: 1px;
+	margin-left: 80px;
+
+	
+}
+.buttonLayout6:hover {
+	background-color:transparent;
+}
+
+.buttonLayout6:active {
+	position:relative;
+	top:1p
+}
+
+.buttonLayout6:active {
+	position:relative;
+	top:1p
+}
+
+.borderlogin {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border: 5px solid red;
+    box-shadow: 10px 10px 5px #888888;
+    border:2px solid #a7cde8;
+	display:inline-block;
+    background-color: #575545;
+    background: rgba(0,0,0,0.7);
+    /*opacity:.50;*/
+    /*background:rgba(255,255,255,0.5);*/
+}
+
+.bordertest {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border: 5px solid red;
+   /* box-shadow: 10px 10px 5px #888888;*/
+    border:2px solid #a7cde8;
+	display:inline-block;
+    background-color: #575545;
+    background: rgba(0,0,0,0.7);
+    /*opacity:.50;*/
+    /*background:rgba(255,255,255,0.5);*/
+}
+
